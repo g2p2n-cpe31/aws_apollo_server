@@ -1,0 +1,41 @@
+{
+  "name": "lambda_apollo_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development nodemon src/app.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g2p2n-cpe31/lambda_apollo_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g2p2n-cpe31/lambda_apollo_server/issues"
+  },
+  "homepage": "https://github.com/g2p2n-cpe31/lambda_apollo_server#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "apollo-server-express": "^2.9.7",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "merge-graphql-schemas": "^1.7.0",
+    "path": "^0.12.7",
+    "utill": "^0.1.3"
+  }
+}
